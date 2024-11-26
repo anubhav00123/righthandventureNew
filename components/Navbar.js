@@ -21,8 +21,9 @@ const Navbar = () => {
                   <Image
                     src="/image/companyLogo/right.png" // Make sure to use an absolute path or a proper import for static assets
                     alt="logo"
-                    width={450}
-                    height={50}
+                    width={450} // Set the desired width
+                    height={50} // Set the desired height
+                    layout="intrinsic"
                     // className="img-fluid" // Optional: you can still use your classes
                   />
                 </Link>

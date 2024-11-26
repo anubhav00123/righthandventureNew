@@ -10,7 +10,7 @@ const extractImageUrl = (htmlContent) => {
   const parser = new DOMParser();
   const doc = parser.parseFromString(htmlContent, "text/html");
   const imgElement = doc.querySelector("img");
-  return imgElement ? imgElement.src : null; // Return the image URL if found, else null
+  return imgElement ? imgElement.src : null;
 };
 
 const blogs = () => {
@@ -73,7 +73,7 @@ const blogs = () => {
           </div>
         </div>
       </div>
-      <Reviews/>
+      <Reviews />
       <Footer />
     </>
   );

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -17,12 +18,13 @@ const Navbar = () => {
                 </Link> */}
 
                 <Link className="navbar-brand" href="/">
-                  <img
-                    src="image/companyLogo/right.png"
-                    alt=""
-                    // className="img-fluid"
+                  <Image
+                    src="/image/companyLogo/right.png" // Make sure to use an absolute path or a proper import for static assets
+                    alt="logo"
+                    width={450}
+                    height={50}
+                    // className="img-fluid" // Optional: you can still use your classes
                   />
-                  {/* <span>Right Hand Venture</span> */}
                 </Link>
               </div>
               <button

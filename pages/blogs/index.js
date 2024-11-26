@@ -21,9 +21,8 @@ const blogs = () => {
       const mediumPosts = await fetchMediumPosts();
       const postsWithExtractedContent = mediumPosts.map((post) => {
         // Extract text by removing all HTML tags
-        const text = post.content.replace(/<[^>]*>/g, ""); // Extract text (strip HTML tags)
+        const text = post.content.replace(/<[^>]*>/g, "");
 
-        // Extract the image URL using the utility function
         const image = extractImageUrl(post.content); // Use DOMParser to extract image URL
 
         return {

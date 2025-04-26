@@ -4,7 +4,7 @@ import React from "react";
 const AboutSection = () => {
   return (
     <>
-      <div className="section pt-0">
+      <div className="section pt-5">
         <div className="r-container">
           <div className="row row-cols-lg-2 row-cols-1 align-items-center">
             <div className="col px-4">
@@ -16,7 +16,7 @@ const AboutSection = () => {
                   Join Our Journey of Digital Discovery
                 </h3>
                 <p className="text-color-2">
-                  What sets us unique? Our focus on excellence, transparency,
+                  What sets us unique? Our focus on excellence, transparency,ß
                   and collaboration. We build lasting relationships by
                   understanding your business and delivering tailored,
                   data-driven services, not generic solutions. Partner with us

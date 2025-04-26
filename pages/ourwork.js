@@ -88,7 +88,7 @@ const ourwork = () => {
                 ))}
               </div>
             </div>
-            <OtherService services={servicesData} />;
+            <OtherService services={servicesData} />
           </div>
         </div>
       </div>

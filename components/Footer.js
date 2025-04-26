@@ -110,7 +110,7 @@ const Footer = () => {
                         <ul className="list gap-2">
                           <li>
                             <Link
-                              href="details/webdevelopment"
+                              href="/details/webdevelopment"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Web Development
@@ -118,7 +118,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link
-                              href="details/seo"
+                              href="/details/seo"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Search Engine Optimization
@@ -126,7 +126,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link
-                              href="details/socialmedia"
+                              href="/details/socialmedia"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Social Media Management
@@ -134,7 +134,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link
-                              href="details/email"
+                              href="/details/email"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Email Marketing
@@ -142,7 +142,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link
-                              href="details/googleads"
+                              href="/details/googleads"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Google Ads
@@ -150,7 +150,7 @@ const Footer = () => {
                           </li>
                           <li>
                             <Link
-                              href="details/metaads"
+                              href="/details/metaads"
                               className="link d-flex flex-row gap-3 align-items-center"
                             >
                               Meta Ads

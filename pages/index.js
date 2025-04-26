@@ -2,6 +2,8 @@ import AboutSection from "@/components/AboutSection";
 import Banner from "@/components/Banner";
 import Counter from "@/components/Counter";
 import CTA from "@/components/CTA";
+import EstateBanner from "@/components/EstateBanner";
+import EstateServices from "@/components/EstateServices";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
@@ -30,6 +32,8 @@ export default function Home() {
         <ServiceSection />
         <WhyChoose />
         <Counter />
+        <EstateServices/>
+        <EstateBanner/>
         <Reviews />
         <Partner />
         <FAQ />

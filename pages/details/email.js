@@ -1,4 +1,5 @@
 import BreadBanner from "@/components/BreadBanner";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import OtherService from "@/components/OtherService";
 import React from "react";
@@ -109,10 +110,11 @@ const email = () => {
                 </div>
               </div>
             </div>
-            <OtherService services={servicesData} />;
+            <OtherService services={servicesData} />
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };
